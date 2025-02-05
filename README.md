@@ -1,48 +1,46 @@
-### <img style="width: 100%; height: 300px; object-fit: cover" src="./Samurai_gif.gif">
-# <img src="./Keanu-unscreen.gif" width="80" height="80"/> Ricardo Targino
+<img src="./Samurai_gif-ezgif.com-crop.gif" width="100%" />
 
+# <img src="./Keanu-unscreen.gif" width="80px" height="80px" /> Ricardo Targino
 
 **`Desenvolvedor Frontend`**
 
-### Eae, tudo bom???
+### E aí, tudo bom???
 
 Olá! Meu nome é Ricardo Targino, tenho 22 anos e sou estudante do curso de Tecnologia em Sistemas para Internet no [Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Natal Zona Leste](https://portal.ifrn.edu.br/campus/natalzonaleste/). Atualmente, estou me preparando para entrar na carreira de desenvolvedor Frontend. Abaixo, você pode conferir os projetos que estou desenvolvendo e os que já concluí, além das tecnologias utilizadas.
 
-<div style="display: flex; justify-content: center; gap: .4rem;"><br> 
-  <a href="https://www.linkedin.com/in/ricardo-targino-044681212/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href = "mailto:targinoricardo123@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.instagram.com/ric.targino/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
-  <a href="https://discord.com/users/357184855152525312" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a>
+---
 
-</div>
+### 📌 Contato
+
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ricardo-targino-044681212/)
+[![Gmail](https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white)](mailto:targinoricardo123@gmail.com)
+[![Instagram](https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/ric.targino/)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.com/users/357184855152525312)
 
 ---
 
-<p style="font-size: 1.4rem; font-weight: 500; text-align: center">👾 Linguagens e Tecnologias</p>
+### 👾 Linguagens e Tecnologias
 
-<div style="display: flex; flex-direction: column; width: 100%">
-  <section style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; margin-bottom: 30px">
-    <img alt="html" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-    <img alt="css" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-    <img alt="tailwind" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/tailwindcss/tailwindcss-original.svg">
-    <img alt="tailwind" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/sass/sass-original.svg">
-    <img alt="js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
-    <img alt="react" height="30" width="30" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/react/react-original.svg">  
-    <img alt="vue" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg">
-    <img alt="git" height="30" width="40" src="https://camo.githubusercontent.com/80ee24b2f1d1758eeeaa65bc396e11aef6d39a394edc5c8925e2e04a5b5d3297/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f6769742f6769742d6f726967696e616c2e737667">
-    <img alt="sql" height="30" width="25" src="https://static-00.iconduck.com/assets.00/sql-database-generic-icon-1521x2048-d0vdpxpg.png">
-  </section>
+<div align="left">
+  <img alt="HTML" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img alt="CSS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img alt="Tailwind" height="40" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/tailwindcss/tailwindcss-original.svg">
+  <img alt="Sass" height="40" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/sass/sass-original.svg">
+  <img alt="JavaScript" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
+  <img alt="React" height="40" src="https://raw.githubusercontent.com/devicons/devicon/ca28c779441053191ff11710fe24a9e6c23690d6/icons/react/react-original.svg">  
+  <img alt="Vue" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vuejs/vuejs-original.svg">
+  <img alt="Git" height="40" src="https://camo.githubusercontent.com/80ee24b2f1d1758eeeaa65bc396e11aef6d39a394edc5c8925e2e04a5b5d3297/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e406c61746573742f69636f6e732f6769742f6769742d6f726967696e616c2e737667">
+  <img alt="SQL" height="40" src="https://static-00.iconduck.com/assets.00/sql-database-generic-icon-1521x2048-d0vdpxpg.png">
+</div>
+
+<div align="left">
+  <img alt="GitHub Stats" height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RickHub2002&theme=midnight-purple&layout=compact&custom_title=Tecnologias&langs_count=9"/>
+
+
+### 📊 Histórico
   
-
-  <!-- O GitHub Stats fica abaixo, com um pequeno espaço -->
-  <img alt="GitHub Stats" height="200" style="margin-bottom: 50px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RickHub2002&theme=midnight-purple&layout=compact&custom_title=Tecnologias&langs_count=9"/>
+  <img alt="GitHub Stats" height="180" src="https://github-readme-stats.vercel.app/api?username=RickHub2002&show_icons=true&theme=midnight-purple&include_all_commits=true&locale=pt-br"/>
 </div>
 
-<p style="font-size: 1.4rem; font-weight: 500; text-align: center">📊 Histórico</p>
-<div style="display: flex; justify-content: center; items:center; margin-bottom: 50px">
-  <img align="left" alt="github-stats" height="200" style="margin-right: 30px;" src="https://github-readme-stats.vercel.app/api?username=RickHub2002&show_icons=true&theme=midnight-purple&include_all_commits=true&locale=pt-br"/>
-</div>
+![GIF](https://giffiles.alphacoders.com/451/4513.gif)
 
-
-
-<img style="width: 100%; height: 100px; object-fit: cover" src="https://giffiles.alphacoders.com/451/4513.gif"/>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Imagem</title>
+    <style>
+        #imageWrapper {
+            width: 100%;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+        }
+        #originalImage {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="imageWrapper">
+        <img id="originalImage" src="Samurai_gif.gif" alt="Imagem Original">
+    </div>
+    <button id="downloadBtn">Baixar Imagem Alterada</button>
+
+    <script>
+        const img = document.getElementById('originalImage');
+        const downloadBtn = document.getElementById('downloadBtn');
+
+        downloadBtn.addEventListener('click', function() {
+            // Cria um canvas com o mesmo tamanho da imagem
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+
+            // Define as dimensões do canvas
+            canvas.width = img.width;
+            canvas.height = img.height;
+
+            // Aplica object-fit: cover na imagem
+            const scaleX = canvas.width / img.width;
+            const scaleY = canvas.height / img.height;
+            const scale = Math.max(scaleX, scaleY);
+
+            const xOffset = (canvas.width - img.width * scale) / 2;
+            const yOffset = (canvas.height - img.height * scale) / 2;
+
+            // Desenha a imagem no canvas com o ajuste
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.drawImage(img, xOffset, yOffset, img.width * scale, img.height * scale);
+
+            // Cria um link para download da imagem com o GIF funcionando
+            const dataUrl = canvas.toDataURL('image/gif');
+            const link = document.createElement('a');
+            link.href = dataUrl;
+            link.download = 'imagem_modificada.gif'; // Nome do arquivo
+            link.click();
+        });
+    </script>
+</body>
+</html>

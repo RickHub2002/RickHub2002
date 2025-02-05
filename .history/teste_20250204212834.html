@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Imagem</title>
+</head>
+<body>
+    <img id="originalImage" src="Samurai_gif.gif" width="400" alt="Imagem Original" style="display:none;">
+    <button id="downloadBtn">Baixar Imagem Alterada</button>
+
+    <canvas id="canvas" style="width: 100%; height: 300px;"></canvas>
+
+    <script>
+        const img = document.getElementById('originalImage');
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const downloadBtn = document.getElementById('downloadBtn');
+
+        img.onload = function() {
+            // Ajusta o tamanho do canvas para a largura de 100% e altura de 300px
+            canvas.width = window.innerWidth; // Largura de 100%
+            canvas.height = 300; // Altura fixa de 300px
+
+            // Aplica object-fit: cover manualmente ajustando a imagem no canvas
+            const scaleX = canvas.width / img.width;
+            const scaleY = canvas.height / img.height;
+            const scale = Math.max(scaleX, scaleY); // Escolhe o maior valor para garantir que a imagem preencha o canvas
+
+            const xOffset = (canvas.width - img.width * scale) / 2; // Calcula o deslocamento horizontal
+            const yOffset = (canvas.height - img.height * scale) / 2; // Calcula o deslocamento vertical
+
+            // Desenha a imagem ajustada no canvas
+            ctx.clearRect(0, 0, canvas.width, canvas.height); // Limpa o canvas antes de desenhar
+            ctx.drawImage(img, xOffset, yOffset, img.width * scale, img.height * scale);
+        };
+
+        downloadBtn.addEventListener('click', function() {
+            const dataUrl = canvas.toDataURL('image/png');
+            const link = document.createElement('a');
+            link.href = dataUrl;
+            link.download = 'imagem_modificada.png'; // Nome do arquivo de saída
+            link.click();
+        });
+    </script>
+</body>
+</html>

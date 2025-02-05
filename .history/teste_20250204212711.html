@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Imagem</title>
+</head>
+<body>
+    <img id="originalImage" src="Samurai_gif.gif" width="400" alt="Imagem Original">
+    <button id="downloadBtn">Baixar Imagem Alterada</button>
+
+    <canvas id="canvas" style="display: none;"></canvas>
+
+    <script>
+        const img = document.getElementById('originalImage');
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        const downloadBtn = document.getElementById('downloadBtn');
+
+        img.onload = function() {
+            canvas.width = img.width;
+            canvas.height = img.height;
+            ctx.drawImage(img, 0, 0);
+            // Aqui você pode aplicar filtros ou transformações, por exemplo:
+            ctx.filter = 'grayscale(100%)'; // Aplicando filtro de escala de cinza
+            ctx.drawImage(img, 0, 0);
+        };
+
+        downloadBtn.addEventListener('click', function() {
+            const dataUrl = canvas.toDataURL('image/png');
+            const link = document.createElement('a');
+            link.href = dataUrl;
+            link.download = 'imagem_modificada.png'; // Nome do arquivo de saída
+            link.click();
+        });
+    </script>
+</body>
+</html>
